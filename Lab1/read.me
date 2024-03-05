@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>  <!-- Header Start -->
+    <meta charset="UTF-8">
+    <title>Розробка простої HTML сторінки</title>
+    <style> 
+      .scale {
+        transition: 1s;
+      }
+      .scale:hover {
+        transform: scale(1.05);  
+      }
+      .scale {
+        text-align: center;
+      }
+    </style> <!-- Zooming in on hover -->
+</head> <!-- Header Ends -->
+
+<body> <!-- Body Start -->
+  <h2 style="font-size: 42px;" >Усім привіт!</h1>
+  <h1 style="text-align: center; font-size: 56px;" ><b><blockquote>Мене звати <font color = "FF0000">Петров Михайло</font></blockquote></b></h2>
+  <h3 style="text-align: right; font-size: 36px;" >Я студент групи <font color = "FF0000">ТЗ-21</font></h2>
+  <hr>
+  <!-- Text with ref. -->
+  <p style="font-size: 24px;" >За <a href="https://it-rating.ua/html5-ta-css3-osnovi-veb-rozrobki"><b><i>цим посиланням</a></b></i> ви можете знайти цікаву інформацію про <b>мову розмітки HTML5</b> та <b>мову стилів CSS3.</b>
+  <br> А цю картинку я знайшов у просторах інтернету і хочу з вами поділитися</p>
+  <!-- Picture ref. -->
+  <a href="https://kinsta.com/knowledgebase/what-is-html/"> 
+  <figure class="scale">
+  <img src="https://kinsta.com/wp-content/uploads/2022/06/html-css-javascript-differences-1536x922.png"
+     alt="HTML5"
+     width="680"
+     height="450">
+  </figure>
+  </a>
+
+  <p style="font-size: 24px;">Вона <b>клікабельна</b> і якщо <b>по ній <i>клікнути</i></b>, то ви зможете перейти на сайт звідки її було взято</p>
+  <hr>
+</body> <!-- Body Ends -->
+
+</html>
