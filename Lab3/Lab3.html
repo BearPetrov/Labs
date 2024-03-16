@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>  <!-- Header Start -->
+    <meta charset="UTF-8">
+    <title>Створення форм за допомогою HTML</title>
+
+</head> <!-- Header Ends -->
+
+<body> <!-- Body Start -->
+<form mame="shop" action="" method="post" id="shop"> <!-- Pizza Shop 2.0 -->
+    <html><table border="2" cellpadding="2" cellspacing="1"> 
+        <tr>
+            <th colspan="2" align="center"> Pizza Shop 2.0 </th>
+        </tr>
+        <tr>
+            <td> Name </td>
+            <td> <input type="text" name="name" placeholder="First name" required /> </td>
+        </tr>
+        <tr>
+            <td> Pizza Topping </td>
+            <td> <input type="radio" name="topping" value="supreme" required /> Supreme<br>
+            <input type="radio" name="topping" value="vegetarian"> Vegetarian<br>
+            <input type="radio" name="topping" value="hawaiian" > Hawaiian </td>
+        </tr>
+        <tr>
+            <td> Pizza Sauce </td>
+            <td> 
+                <select>
+                    <option value="Tomato"> Tomato </option>
+                    <option value="Tomato"> Pesto </option>
+                    <option value="Tomato"> Mayonnaise </option>
+                    <option value="Tomato"> Satsebeli </option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td> Optional Extras </td>
+            <td> <input type="checkbox" name="optional[]" value="cheese"> Extra Cheese 
+                <input type="checkbox" name="optional[]" value="glutenFree"> Gluten Free Base 
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2"> Delivery Instructions:<br>
+            <textarea cols="50" rows="3" value="instructions" placeholder="Text..." required></textarea>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2"><input type="submit" value="Send my Order"></td>
+        </tr>
+</form>
+</body> <!-- Body Ends -->
+
+</html>
