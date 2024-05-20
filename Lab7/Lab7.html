@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Основи JavaScript програмування</title>
+    <link rel="stylesheet" href="Lab7.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Перевірка числа</h2>
+        <input type="text" id="numberInput" placeholder="Введіть число">
+        <button onclick="checkNumber()" class="glow-on-hover">Перевірити</button>
+        <div id="checkNumberResult" class="result"></div>
+    </div>
+
+    <div class="container">
+        <h2>Знайти суму перших 5 простих чисел</h2>
+        <button onclick="sumFirstFivePrimes()" class="glow-on-hover">Знайти суму</button>
+        <div id="sumPrimesResult" class="result"></div>
+    </div>
+
+    <div class="container">
+        <h2>Сума ряду з n чисел</h2>
+        <input type="number" id="seriesInput" placeholder="Введіть n">
+        <button onclick="calculateSeriesSum()" class="glow-on-hover">Обчислити</button>
+        <div id="seriesSumResult" class="result"></div>
+    </div>
+
+    <script src="Lab7.js"></script>
+</body>
+</html>
