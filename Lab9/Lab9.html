@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dogs</title>
+    <link rel="stylesheet" href="Lab9.css">
+</head>
+<body>
+    <ul id="dogList" class="dog-list"></ul>
+
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <img id="modalImage" src="" alt="Dog Image">
+            <h3 id="modalTitle"></h3>
+            <h4 class="gray">Sex:</h4>
+            <p><span id="modalSex"></span></p>
+            <h4 class="gray">Age:</h4>
+            <p><span id="modalAge"></span></p>
+            <h4 class="gray">Personality:</h4>
+            <p id="modalDescription"></p>
+            <a class="call" href="tel:+380997778888"><strong> Adopt Me </strong></a>
+        </div>
+    </div>
+
+    <script src="Lab9.js"></script>
+</body>
+</html>
