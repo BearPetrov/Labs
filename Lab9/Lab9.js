@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 dogItem.className = 'dog-item';
                 dogItem.innerHTML = `
                     <img src="https://usersdogs.dmytrominochkin.cloud${dog.dogImage}" alt="${dog.title}">
-                    <div">
+                    <div>
                     <h3>${dog.title}</h3>
                     <p style="margin-top: 5px; font-size: 12px">${dog.sex}</p>
                     </div>
